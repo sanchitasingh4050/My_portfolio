@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            /* Use flexbox to create a horizontal layout */
+            height: 100vh;
+            /* Set the height of the body to the full viewport height */
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 50px;
+            text-align: center;
+            border: 1px solid hsl(60, 6%, 97%);
+            /* Optional: Add a border between sections */
+        }
+
+        .sectiontop {
+            padding: 10px;
+            text-align: right;
+            border: 1px solid hsl(60, 6%, 97%);
+            background-color: #290124;
+            color: aliceblue;
+            /* Optional: Add a border between sections */
+        }
+
+        /* Header Styles */
+        header {
+            flex: 3;
+            max-width: 900px;
+            /* Set a fixed width for the header */
+            background-color: #fcfbf5;
+        }
+
+        /* Adjust the width of each section */
+        #section1 {
+            flex: 2;
+            /* Left section takes up more space (2/3 of the total) */
+            background-color: #c914f7;
+        }
+
+        #section2 {
+            flex: 3;
+            /* Right section takes up less space (1/3 of the total) */
+            background-color: #290124;
+            color: rgb(8, 216, 71);
+            width: fit-content;
+            height: fit-content;
+        }
+
+        /* Image Styles */
+        #section2 img {
+            max-width: 100%;
+            flex: 3;
+            /* Make sure the image doesn't exceed the container width */
+            height: auto;
+            /* Maintain the image aspect ratio */
+        }
+
+        .container {
+           margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="sectiontop" class="container">
+            <p><a href="mailto:sanchitasingh4444@gmail.com">Email</a>
+                <a href="https://x.com/Sanchit86433100?t=_A7FtfpzfgNN_GV7UwQsmA&s=09">Twitter</a>
+                <a href="https://www.linkedin.com/in/sanchitasingh4050">LinkedIn </a>
+            </p>
+        </div>
+
+        <!-- ***********************  ABOUT / PROFILE  *********************** -->
+        <header>
+            <div class="section">
+                <h1>Sanchita Singh</h1>
+                <h2>CODER, WEB DEVELOPER, LEARNER</h2>
+                <p>Passionate about Computer Science, I'm seeking an internship to enhance coding skills and bridge the
+                    gap between academic knowledge and practical experience.
+                    Eager to contribute to an organization's success and make a positive impact on a large scale.</p>
+            </div>
+
+            <!-- Section 1 -->
+            <div class="container">
+                <h2 style="color: #0c1cace7;">Experience </h2>
+                <hr>
+                <h3>Trainee| NVIDIA</h3>
+                <p>Greater Noida – December 2023 – Present</p>
+                <li>Got selected for NVIDIA GRIL Internship, an opportunity to explore
+                    <br>the working of NVDIA DGX A100 GPU and
+                    it's deployment.
+                </li>
+
+                <h3>Apprenticeship Trainee | Katalyst</h3>
+                <p>Noida - February 2022 -july 2025</p>
+
+                <h3>Internship | AWS Academy cloud foundations</h3>
+                <p>Virtual Internship by AWS academy via AICTE.</p>
+                <li>It provided me a detailed overview of cloud concepts, AWS core services, security, architecture,
+                    pricing, and support.</li>
+            </div>
+        </header>
+
+        <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+        <div class="container">
+            <h2 style="color: #0c1cace7;"> Education</h2>
+            <hr>
+            <div class="content-wrap" class="container">
+                <h3>G.L Bajaj Institute Of Technology & Management, Greater Noida</h3>
+                <p>B.Tech - Computer Science Engineering, 2021-2025</p>
+                <h4>Achievements</h4>
+                <ul>
+                    <li>-Got Selected for NVIDIA GRIL Internship out of 800+ students.</li>
+                    <li>Solved 400+ questions across various coding platforms including Leetcode .</li>
+                    <li>-Secured 2nd position in Srijan Hackathon</li>
+                </ul>
+                <h3>Assisi Convent School, Noida</h3>
+                <p>Intermediate -PCM with Computer Science</p>
+            </div>
+
+            <!-- End of School block. -->
+            <div >
+                <h2 style="color: #0c1cace7;">Certifications</h2>
+                <hr>
+                <ul>
+                    <li><a href="https://www.credly.com/badges/c74eaf17-2e67-484c-acd9-8c156ddbb5fe/public_url">AWS
+                            Cloud Foundations</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/in/sanchitasingh4050/overlay/1635547398886/single-media-viewer/?profileId=ACoAAD3GZKEBqvLbQ_S42H7HGQ8WhInf0tyJb_g">AWS
+                            Cloud Architect</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/learning/certificates/4ffa577f2479e740f6801206cd4f0bf1370ed3ea197bc39d700ee51d4589c84a">HTML</a>
+                    </li>
+                    <li><a
+                            href="https://www.linkedin.com/learning/certificates/8bc08e0fa56ff83a77773fa8e3c6c188b9489a5620870c62a2725b57ad2b62a7">CSS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+        <footer>
+            <div class="container">
+                <h2>Let's Keep in Touch!</h2>
+
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <ul>
+                    <li><a href="mailto:sanchitasingh4444@gmail.com">Email</a></li>
+                    <li><a href="https://x.com/Sanchit86433100?t=_A7FtfpzfgNN_GV7UwQsmA&s=09">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/sanchitasingh4050">LinkedIn</a></li>
+
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <!-- Section 2 with Image -->
+    <div id="section2" class="section">
+        <h2>Hello,Welcome to my portfolio!</h2>
+        <p>I'm Sanchita Singh.</p>
+        <img src="C:\Users\Hello\Desktop\vscode projects\portfolio\my picture.jpeg" alt="Image description">
+        <h2>Skills</h2>
+        <P>Currently I'm working on Object Detection models & their deployment</P>
+        <p>Some of the programming languages that I'm familiar with are- C, C++, Python</p>
+        <p>I'm also skilled in development languages like- HTML, CSS and JAVASCRIPT</p>
+        <p>my coursework includes- Operating Systems, DBMS, SQL, OOPS, Data Structures & Algorithms</p>
+        <p>I'm also familiar with Git/Github</p>
+        <img src="C:\Users\Hello\Desktop\vscode projects\portfolio\srijanhack.jpeg" alt="srijanhack1">
+        <img src="C:\Users\Hello\Desktop\vscode projects\portfolio\grouppic1.jpeg" alt="srijanhack">
+
+    </div>
+
+
+
+</body>
+
+</html>
